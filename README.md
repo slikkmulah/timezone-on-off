@@ -3,3 +3,9 @@
 Timezone proxy sync On: Enable-ScheduledTask -TaskName "Webshare Timezone Sync"
 
 Timezone proxy sync Off: Disable-ScheduledTask -TaskName "Webshare Timezone Sync"; Set-TimeZone -Id "Pacific Standard Time"
+
+
+
+
+
+Get current proxy timezone info: Get-Content "C:\Scripts\WebshareTimezoneSync.log"
